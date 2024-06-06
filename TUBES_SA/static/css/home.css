@@ -1,0 +1,77 @@
+
+
+.main{
+    width: 1200px;
+    height:850px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    position: relative;
+    margin: 7px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar{
+    box-shadow: 1px 5px rgba(0, 0, 0, 0.20);
+}
+
+.footer{
+    width: 100%;
+    border-top:5px solid rgba(0, 0, 0, 0.20);
+    background-color: rgba(0, 0, 0, 0.20);
+    height: 50px;
+
+}
+
+p {
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 15px;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.text {
+    text-align: center;
+    color: rgba(220, 220, 220, 0.75);
+    padding-top: 50px;
+}
+
+.text h1 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.text h2{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.table-responsive{
+    color: rgba(220, 220, 220, 0.75); /* Optional: to make the text more readable */
+}
+.table th, .table td {
+    background-color: #27374D;
+    color: rgba(220, 220, 220, 0.75);
+    text-align: center;
+    
+}
